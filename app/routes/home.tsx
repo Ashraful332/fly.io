@@ -2,6 +2,17 @@ import "../app.css";
 
 export default function Home() {
   return <div>
-   <h1 className="text-amber-500 ">Hello World</h1>
+    <nav></nav>
+    <header></header>
+    <main>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+      <section></section>
+    </main>
+    <footer></footer>
   </div>
 }

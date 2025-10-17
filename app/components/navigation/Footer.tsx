@@ -13,12 +13,12 @@ const Footer = () => {
                         <p>About</p>
                         <p>Pricing</p>
                         <p>Jobs</p>
-                    </div>                     
+                    </div>
                     <div>
                         <h4>Articles</h4>
                         <p>Blog</p>
                         <p>Phoenix Files</p>
-                        <p>Laravel Bytes</p>
+                        <p>Laravel Bytes</p>    
                         <p>Ruby Dispatch</p>
                         <p>Django Beats</p>
                         <p>JavaScript Journal</p>

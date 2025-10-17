@@ -8,17 +8,17 @@ const Section7 = () => {
     return (
         <div>
             <div className="max-w-[1200px] mx-auto ">
-                <div>
+                <div className="flex flex-col lg:flex-row">
                     <div>
                         <div>
-                            <img src={jsL} alt="javascript and we" />
+                            <img src={jsL} alt="javascript and we" className="w-[448px]" />
                         </div>
                         <div>
                             <h2>Serverful JavaScript Without the Hassle of Serverless</h2>
                             <p>Imagine if a server could boot as fast as a serverless function? That's Fly Machines—serverless compute is a trade-off you no longer need to make. Graduate to a full-stack cloud to regain control over your stack & hosting bill.</p>
                         </div>
                     </div>
-                    <div>
+                    <div className="max-w-[530px] ">
                         <div>
                             <div>
                                 <img src={power} alt="" />

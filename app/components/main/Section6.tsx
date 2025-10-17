@@ -4,8 +4,8 @@ import work from "~/assets/photo/working.png"
 const Section6 = () => {
     return (
         <div className="max-w-[1200px] mx-auto ">
-            <div>
-                <div>
+            <div className="flex justify-between">
+                <div className="max-w-[536px] ">
                     <button>NEW!</button>
                     <h2>Fly.io Managed Postgres</h2>
                     <p>A fully-managed database service that handles all aspects of running production PostgreSQL where we take care of:</p>
@@ -37,8 +37,8 @@ const Section6 = () => {
                     </div>
                     <button>Learn More</button>
                 </div>
-                <div>
-                    <img src={work} alt="image" />
+                <div >
+                    <img src={work} alt="image" className="w-[385px] " />
                 </div>
             </div>
         </div>

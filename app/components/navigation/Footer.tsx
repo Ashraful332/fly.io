@@ -3,7 +3,7 @@ import Logo from "~/assets/photo/logo-landscape.svg";
 const Footer = () => {
     return (
         <div>
-            <div>
+            <div className="max-w-[1200px] mx-auto ">
                 <div>
                     <div>
                         <img src={Logo} alt="logo" />

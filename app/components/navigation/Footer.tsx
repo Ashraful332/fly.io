@@ -1,4 +1,4 @@
-
+import Logo from "~/assets/photo/logo-landscape.svg";
 
 const Footer = () => {
     return (
@@ -6,7 +6,7 @@ const Footer = () => {
             <div>
                 <div>
                     <div>
-                        <img src="" alt="logo" />
+                        <img src={Logo} alt="logo" />
                     </div>
                     <div>
                         <h4>Company</h4>

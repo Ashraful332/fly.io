@@ -1,3 +1,7 @@
+import jsL from "~/assets/photo/js.png";
+import cpu from "~/assets/icon/cpu.svg";
+import power from "~/assets/icon/power.svg";
+import brain from "~/assets/icon/brain.svg";
 
 
 const Section7 = () => {
@@ -7,7 +11,7 @@ const Section7 = () => {
                 <div>
                     <div>
                         <div>
-                            <img src="" alt="" />
+                            <img src={jsL} alt="javascript and we" />
                         </div>
                         <div>
                             <h2>Serverful JavaScript Without the Hassle of Serverless</h2>
@@ -17,7 +21,7 @@ const Section7 = () => {
                     <div>
                         <div>
                             <div>
-                                <img src="" alt="" />
+                                <img src={power} alt="" />
                             </div>
                             <div>
                                 <h3>Boots in 250ms or Less</h3>
@@ -28,7 +32,7 @@ const Section7 = () => {
                         </div>
                         <div>
                             <div>
-                                <img src="" alt="" />
+                                <img src={brain} alt="" />
                             </div>
                             <div>
                                 <h3>Built for JavaScript Developers</h3>
@@ -39,7 +43,7 @@ const Section7 = () => {
                         </div>
                         <div>
                             <div>
-                                <img src="" alt="" />
+                                <img src={cpu} alt="" />
                             </div>
                             <div>
                                 <h3>Real GPUs & CPUs on the Edge</h3>

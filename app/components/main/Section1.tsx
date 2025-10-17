@@ -1,3 +1,5 @@
+import World from "~/assets/photo/world.png";
+
 
 const Section1 = () => {
     return (
@@ -10,7 +12,7 @@ const Section1 = () => {
                     </p>
                 </div>
                 <div>
-                    <img src="" alt="world map illustration" />
+                    <img src={World} alt="world map illustration" />
                 </div>
             </div>
         </div>

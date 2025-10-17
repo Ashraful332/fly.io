@@ -1,3 +1,7 @@
+import World from "~/assets/icon/globe.svg";
+import fork from "~/assets/icon/git-fork.svg";
+import Zap from "~/assets/icon/zap.svg";
+import atom from "~/assets/icon/atom.svg";
 
 
 const Section2 = () => {
@@ -6,7 +10,7 @@ const Section2 = () => {
             <div>
                 <div>
                     <div>
-                        <img src="" alt="icon" />
+                        <img src={World} alt="icon" />
                     </div>
                     <div>
                         <h3>Get Right in Your Users' Faces</h3>
@@ -15,7 +19,7 @@ const Section2 = () => {
                 </div>
                 <div>
                     <div>
-                        <img src="" alt="icon" />
+                        <img src={fork} alt="icon" />
                     </div>
                     <div>
                         <h3>Fork Off VMs Like They're Processes</h3>
@@ -24,7 +28,7 @@ const Section2 = () => {
                 </div>
                 <div>
                     <div>
-                        <img src="" alt="icon" />
+                        <img src={Zap} alt="icon" />
                     </div>
                     <div>
                         <h3>Ship GPU-Boosted Models</h3>
@@ -33,7 +37,7 @@ const Section2 = () => {
                 </div>
                 <div>
                     <div>
-                        <img src="" alt="icon" />
+                        <img src={atom} alt="icon" />
                     </div>
                     <div>
                         <h3>Built for Distributed Systems</h3>

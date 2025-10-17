@@ -1,3 +1,4 @@
+import work from "~/assets/photo/working.png"
 
 
 const Section6 = () => {
@@ -37,7 +38,7 @@ const Section6 = () => {
                     <button>Learn More</button>
                 </div>
                 <div>
-                    <img src="" alt="image" />
+                    <img src={work} alt="image" />
                 </div>
             </div>
         </div>

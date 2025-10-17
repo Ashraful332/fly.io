@@ -1,4 +1,5 @@
 import { Link } from "react-router";
+import logo from "~/assets/photo/logo-landscape.svg";
 
 
 const Navbar = () => {
@@ -6,7 +7,7 @@ const Navbar = () => {
         <div>
             <div>
                 <div>
-                    <img src="" alt="logo" />
+                    <img src={logo} alt="logo" />
                 </div>
                 <div>
                     <div>Products</div>

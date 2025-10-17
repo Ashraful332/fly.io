@@ -1,3 +1,4 @@
+import Fireball from "~/assets/photo/fireball.png"
 
 
 const Section3 = () => {
@@ -11,7 +12,7 @@ const Section3 = () => {
                     <button>Learn More</button>
                 </div>
                 <div>
-                    <img src="" alt="fire ball" />
+                    <img src={Fireball} alt="fire ball" />
                 </div>
             </div>
         </div>

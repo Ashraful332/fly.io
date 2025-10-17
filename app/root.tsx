@@ -29,6 +29,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Deploy app servers close to your users · Fly</title>
+        <link rel="shortcut icon" href="/fly.ico" type="image/x-icon" />
         <Meta />
         <Links />
       </head>

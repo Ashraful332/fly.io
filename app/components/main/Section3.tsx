@@ -3,7 +3,17 @@
 const Section3 = () => {
     return (
         <div>
-            
+            <div>
+                <div>
+                    <button>NEW!</button>
+                    <h2>Introducing Phoenix.new The Remote AI Runtime for Phoenix</h2>
+                    <p>Describe your app, and watch it take shape. Prototype quickly, experiment freely, and share instantly.</p>
+                    <button>Learn More</button>
+                </div>
+                <div>
+                    <img src="" alt="fire ball" />
+                </div>
+            </div>
         </div>
     );
 };

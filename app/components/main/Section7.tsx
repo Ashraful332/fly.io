@@ -3,7 +3,54 @@
 const Section7 = () => {
     return (
         <div>
-            
+            <div>
+                <div>
+                    <div>
+                        <div>
+                            <img src="" alt="" />
+                        </div>
+                        <div>
+                            <h2>Serverful JavaScript Without the Hassle of Serverless</h2>
+                            <p>Imagine if a server could boot as fast as a serverless function? That's Fly Machines—serverless compute is a trade-off you no longer need to make. Graduate to a full-stack cloud to regain control over your stack & hosting bill.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <div>
+                                <img src="" alt="" />
+                            </div>
+                            <div>
+                                <h3>Boots in 250ms or Less</h3>
+                                <p>
+                                    Functions and apps boot and respond to web requests in 250ms or less with Fly Machines. You decide to keep them running or automatically put them to sleep.
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="" alt="" />
+                            </div>
+                            <div>
+                                <h3>Built for JavaScript Developers</h3>
+                                <p>
+                                    JavaScript, TypeScript, Bun, Deno—whatever your flavor, Fly Launch automatically detects your runtime and generates a VM with everything you need to run your app.
+                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="" alt="" />
+                            </div>
+                            <div>
+                                <h3>Real GPUs & CPUs on the Edge</h3>
+                                <p>
+                                    Run workloads that require GPUs or lots of CPUs, memory, and storage in over 30 regions around the world—all interconnected by a private, encrypted WireGuard network that works out of the box.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

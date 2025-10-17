@@ -2,9 +2,9 @@ import Logo from "~/assets/photo/logo-landscape.svg";
 
 const Footer = () => {
     return (
-        <div>
+        <div className="bg-[var(--background)] ">
             <div className="max-w-[1200px] mx-auto mt-40 ">
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 text-[#A39AC1] pt-20 ">
                     <div>
                         <img src={Logo} alt="logo" className="w-28" />
                     </div>
@@ -46,7 +46,7 @@ const Footer = () => {
                     </div>                     
                 </div>
                 <div className="text-center">
-                    <p>Copyright © 2025 Fly.io</p>
+                    <p className="text-[#A39AC1] mt-20 text-sm pb-8 ">Copyright © 2025 Fly.io</p>
                 </div>
             </div>
         </div>

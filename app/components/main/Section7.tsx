@@ -6,8 +6,8 @@ import brain from "~/assets/icon/brain.svg";
 
 const Section7 = () => {
     return (
-        <div>
-            <div className="max-w-[1200px] mx-auto mt-32 ">
+        <div className="background-grid">
+            <div className="max-w-[1200px] mx-auto pt-32 ">
                 <div >
                     <div className="flex flex-col lg:flex-row justify-between">
                         <div>

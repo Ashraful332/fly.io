@@ -3,7 +3,7 @@ import check from "~/assets/icon/check.svg"
 
 const Section4 = () => {
     return (
-        <div className="max-w-[1200px] mx-auto mt-40 ">
+        <div className="max-w-[1200px] mx-auto pb-40 ">
             <div className="flex flex-col lg:flex-row">
                 <div className="max-w-[530px] ">
                     <div>

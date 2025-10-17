@@ -10,7 +10,7 @@
     --text4: #CCCCCC;
 
     --background: #191034;
-    --ring: rgb(59 130 246 / 0.5);
+    --ring: rgba(59, 131, 246, 0.541);
 
     --margin1: 160px;
     --margin2: 120px;
@@ -26,7 +26,7 @@
 
 /* section 1 */
 .background-grid{
-    background-image: linear-gradient(to bottom, var(--ring), white);
+    background-image: linear-gradient(to bottom, #a091c7b2,white);
 }
 
 

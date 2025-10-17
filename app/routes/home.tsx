@@ -15,10 +15,10 @@ import Section7 from "~/components/main/Section7";
 export default function Home() {
   return <div>
     <nav><Navbar/></nav>
-    <header><Hero/></header>
+    {/* <header><Hero/></header> */}
     <main>
       <section><Section1/></section>
-      <section><Section2/></section>
+      {/* <section><Section2/></section> */}
       <section><Section3/></section>
       <section><Section4/></section>
       <section><Section5/></section>

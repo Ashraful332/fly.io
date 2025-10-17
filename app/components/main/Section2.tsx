@@ -6,7 +6,7 @@ import atom from "~/assets/icon/atom.svg";
 
 const Section2 = () => {
     return (
-        <div className="max-w-[1200px] mx-auto mt-20 ">
+        <div className="max-w-[1200px] mx-auto pb-40 ">
             <div className="grid grid-cols-1 lg:grid-cols-2">
                 <div className="flex gap-8">
                     <div className="w-12 h-12 ">

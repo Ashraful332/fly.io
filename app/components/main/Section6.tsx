@@ -3,7 +3,7 @@ import work from "~/assets/photo/working.png"
 
 const Section6 = () => {
     return (
-        <div className="max-w-[1200px] mx-auto mt-28 ">
+        <div className="max-w-[1200px] mx-auto pb-28  ">
             <div className="flex justify-between">
                 <div className="max-w-[536px] ">
                     <button>NEW!</button>

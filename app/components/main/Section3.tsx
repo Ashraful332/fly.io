@@ -3,7 +3,7 @@ import Fireball from "~/assets/photo/fireball.png"
 
 const Section3 = () => {
     return (
-        <div className="max-w-[1200px] h-auto xl:h-[432px] mx-auto bg-[var(--background)] text-white rounded-3xl border-[2.5px] border-[var(--ring)] ">
+        <div className="max-w-[1200px] h-auto xl:h-[432px] mx-auto bg-[var(--background)] text-white rounded-3xl border-[2.5px] border-[var(--ring)] mt-40 ">
             <div className="flex flex-col items-center justify-center m-auto">
                 <div className="flex flex-col lg:flex-row ">
                     <div className="max-w-[540px] ">

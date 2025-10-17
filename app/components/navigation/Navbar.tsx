@@ -4,7 +4,7 @@ import logo from "~/assets/photo/logo-landscape.svg";
 
 const Navbar = () => {
     return (
-        <div className="max-w-[1200px] mx-auto ">
+        <div className="max-w-[1200px] mx-auto mt-[30px] ">
             <div className="flex items-center justify-between">
                 <div>
                     <img src={logo} alt="logo" className="w-28 " />

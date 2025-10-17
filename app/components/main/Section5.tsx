@@ -3,7 +3,7 @@
 const Section5 = () => {
     return (
         <div>
-            <div className="max-w-[1200px] mx-auto ">
+            <div className="max-w-[1200px] mx-auto mt-36 ">
                 <div className="flex justify-between">
                     <div>
                         <h2>Use the Tech You Love</h2>

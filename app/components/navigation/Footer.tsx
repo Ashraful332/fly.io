@@ -3,10 +3,10 @@ import Logo from "~/assets/photo/logo-landscape.svg";
 const Footer = () => {
     return (
         <div>
-            <div className="max-w-[1200px] mx-auto ">
-                <div>
+            <div className="max-w-[1200px] mx-auto mt-40 ">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
                     <div>
-                        <img src={Logo} alt="logo" />
+                        <img src={Logo} alt="logo" className="w-28" />
                     </div>
                     <div>
                         <h4>Company</h4>
@@ -45,7 +45,7 @@ const Footer = () => {
                         <p>Acceptable Use Policy</p>
                     </div>                     
                 </div>
-                <div>
+                <div className="text-center">
                     <p>Copyright © 2025 Fly.io</p>
                 </div>
             </div>

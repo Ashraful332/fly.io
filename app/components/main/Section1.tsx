@@ -3,7 +3,7 @@ import World from "~/assets/photo/world.png";
 
 const Section1 = () => {
     return (
-        <div>
+        <div className="max-w-[1200px] mx-auto ">
             <div>
                 <div>
                     <h2>Public Cloud Infrastructure. Modern Platform Endorphins.</h2>

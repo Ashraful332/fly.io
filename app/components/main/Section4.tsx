@@ -2,8 +2,8 @@
 
 const Section4 = () => {
     return (
-        <div>
-            <div>
+        <div className="max-w-[1200px] mx-auto ">
+            <div >
                 <div>
                     <div>
                         {/* table */}

@@ -3,7 +3,7 @@
 const Section5 = () => {
     return (
         <div>
-            <div>
+            <div className="max-w-[1200px] mx-auto ">
                 <div>
                     <div>
                         <h2>Use the Tech You Love</h2>

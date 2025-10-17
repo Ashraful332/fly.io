@@ -3,7 +3,7 @@ import Fireball from "~/assets/photo/fireball.png"
 
 const Section3 = () => {
     return (
-        <div>
+        <div className="max-w-[1200px] mx-auto ">
             <div>
                 <div>
                     <button>NEW!</button>

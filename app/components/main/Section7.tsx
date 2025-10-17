@@ -7,7 +7,7 @@ import brain from "~/assets/icon/brain.svg";
 const Section7 = () => {
     return (
         <div>
-            <div>
+            <div className="max-w-[1200px] mx-auto ">
                 <div>
                     <div>
                         <div>

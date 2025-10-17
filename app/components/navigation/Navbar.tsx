@@ -4,7 +4,7 @@ import logo from "~/assets/photo/logo-landscape.svg";
 
 const Navbar = () => {
     return (
-        <div>
+        <div className="max-w-[1200px] mx-auto ">
             <div>
                 <div>
                     <img src={logo} alt="logo" />

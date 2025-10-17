@@ -3,7 +3,7 @@ import work from "~/assets/photo/working.png"
 
 const Section6 = () => {
     return (
-        <div>
+        <div className="max-w-[1200px] mx-auto ">
             <div>
                 <div>
                     <button>NEW!</button>

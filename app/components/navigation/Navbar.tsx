@@ -11,7 +11,8 @@ const Navbar = () => {
                     <div>
                         <img src={logo} alt="logo" className="w-28 " />
                     </div>
-                    <div className="flex items-center justify-evenly">
+                    <div className="flex items-center justify-evenly bg-[#ffffffbf] backdrop-blur-2xl border border-[#c4adad] py-2 px-6 rounded-3xl text-sm font-medium
+                    gap-5 ">
                         <div>Products</div>
                         <Link to='/'>Pricing</Link>
                         <Link to='/'>Docs</Link>
@@ -19,7 +20,8 @@ const Navbar = () => {
                         <Link to='/'>Community</Link>
                         <Link to='/'>Status</Link>
                     </div>
-                    <div className="flex items-center justify-evenly">
+                    <div className="flex items-center justify-evenly bg-[#ffffffbf] backdrop-blur-2xl border border-[#c4adad] py-2 px-6 rounded-3xl text-sm font-medium
+                    gap-5 ">
                         <div>
                             <Link to=''>Sign In</Link>
                         </div>

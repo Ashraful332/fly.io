@@ -5,7 +5,7 @@ import Section2 from "./Section2";
 const Section1 = () => {
     return (
         <div className="background-grid ">
-            <div className="max-w-[1200px] mx-auto pb-32 ">
+            <div className="max-w-[1200px] mx-auto pb-32  ">
                 <div className="flex justify-between ">
                     <div className="max-w-[536px] ">
                         <h2 className="mb-4">Public Cloud Infrastructure. Modern Platform Endorphins.</h2>

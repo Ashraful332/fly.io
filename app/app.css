@@ -26,7 +26,27 @@
 
 /* section 1 */
 .background-grid{
-    background-image: linear-gradient(to bottom, #a091c7b2,white);
+    background: linear-gradient(
+        to bottom,
+        #ffffff 0px,
+        hsla(311, 100%, 60%, 0.27) 10px,
+        hsla(311, 100%, 60%, 0.25) 10px,
+        hsla(311, 100%, 60%, 0.20) 200px,
+        #ffffff 100%
+    );
+    
+    /* background-image: linear-gradient(to bottom, #a091c7b2,white); */
+    /* background: linear-gradient(180deg, #ffd6e0 0%, #fff0f5 50%, #ffffff 100%); */
+    /* background: linear-gradient(to bottom, hsla(31 100% 60% / 0.93) 10px, hsla(311 100% 60% / 0.40)60%, #ffffff); */
+
+    /* background: radial-gradient(
+        circle at center,
+        #ffb6c1 0%,          /* উপরের দিকে হালকা গোলাপি 
+        #ff69b4 40%,         /* মাঝখানে গাঢ় গোলাপি 
+        #ffffff 70%           /* বাইরের দিকে সাদা 
+    ); */
+
+  
 }
 
 

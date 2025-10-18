@@ -10,7 +10,7 @@ const Section2 = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
                 <div className="flex gap-8">
                     <div className="w-12 h-12 border flex flex-col items-center justify-center rounded-xl ">
-                        <img src={World} alt="icon" className="" />
+                        <img src={World} alt="icon" />
                     </div>
                     <div className="max-w-[456px] ">
                         <h3 className="text-2xl font-medium text-[#281950] mb-4 ">Get Right in Your Users' Faces</h3>

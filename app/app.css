@@ -22,7 +22,13 @@
 
 
 /* hero */
-
+.hero-background{
+    background-image: url(/app/assets/photo/hero.avif);
+    width: 100%;
+    background-size: 100vw auto;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
 
 /* section 1 */
 .background-grid{

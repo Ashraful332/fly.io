@@ -1,1 +1,1 @@
-the project is free do anything you want
+the project is free do anything you want!

@@ -5,7 +5,7 @@ import Hero from "../main/Hero";
 
 const Navbar = () => {
     return (
-        <div>
+        <div className="relative bg-gradient-to-t to-pink-400/30 from-0% ">
             <div className="max-w-[1200px] mx-auto pt-8 ">
                 <div className="flex items-center justify-between">
                     <div>
@@ -32,6 +32,8 @@ const Navbar = () => {
                 </div>
             </div>
             <header><Hero /></header>
+            
+            <div className="absolute w-[40%] h-[40%] bg-[#eb8ae386] rounded-b-full top-0 left-[30%] mix-blend-multiply filter blur-2xl opacity-50 "></div>
         </div>
 
     );

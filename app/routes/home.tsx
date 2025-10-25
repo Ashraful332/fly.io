@@ -26,14 +26,5 @@ export default function Home() {
       <section><Section7/></section>
     </main>
     <footer><Footer/></footer>
-    
-
-    <div className="relative bg-[#0000003d] mt-24 h-screen">
-      <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
-                {/* <div className="absolute top-20 right-10 w-72 h-72 bg-emerald-200 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div> */}
-                <div className="absolute bottom-20 left-10 w-96 h-96 bg-blue-200 rounded-full mix-blend-multiply filter blur-xl opacity-15 animate-pulse"></div>
-                {/* <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-teal-200 rounded-full mix-blend-multiply filter blur-xl opacity-10 animate-pulse"></div> */}
-            </div>
-    </div>
   </div>
 }

@@ -9,7 +9,7 @@ const Section2 = () => {
         <div className="max-w-[1200px] mx-auto pb-40  ">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
                 <div className="flex gap-8">
-                    <div className="w-12 h-12 border flex flex-col items-center justify-center rounded-xl ">
+                    <div className="w-12 h-12 border-2 border-[#10B981] flex flex-col items-center justify-center rounded-xl ">
                         <img src={World} alt="icon" />
                     </div>
                     <div className="max-w-[456px] ">
@@ -18,7 +18,7 @@ const Section2 = () => {
                     </div>
                 </div>
                 <div className="flex gap-8">
-                    <div  className="w-12 h-12 border flex flex-col items-center justify-center rounded-xl ">
+                    <div  className="w-12 h-12 border-2 border-[#3B82F6] flex flex-col items-center justify-center rounded-xl ">
                         <img src={fork} alt="icon" />
                     </div>
                     <div className="max-w-[456px] ">
@@ -27,7 +27,7 @@ const Section2 = () => {
                     </div>
                 </div>
                 <div className="flex gap-8">
-                    <div className="w-12 h-12 border flex flex-col items-center justify-center rounded-xl ">
+                    <div className="w-12 h-12 border-2 border-[#F97316] flex flex-col items-center justify-center rounded-xl ">
                         <img src={Zap} alt="icon" />
                     </div>
                     <div className="max-w-[456px] ">
@@ -36,7 +36,7 @@ const Section2 = () => {
                     </div>
                 </div>
                 <div className="flex gap-8">
-                    <div className="w-12 h-12 border flex flex-col items-center justify-center rounded-xl ">
+                    <div className="w-12 h-12 border-2 border-[#F59E0B] flex flex-col items-center justify-center rounded-xl ">
                         <img src={atom} alt="icon" />
                     </div>
                     <div className="max-w-[456px] ">

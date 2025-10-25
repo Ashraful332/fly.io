@@ -20,7 +20,7 @@ const Section7 = () => {
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-16 gap-12" >
                         <div>
-                            <div className="w-12 h-12 border flex flex-col items-center justify-center rounded-xl ">
+                            <div className="w-12 h-12 border-2 border-[#10B981] flex flex-col items-center justify-center rounded-xl ">
                                 <img src={power} alt="" />
                             </div>
                             <div>
@@ -31,7 +31,7 @@ const Section7 = () => {
                             </div>
                         </div>
                         <div>
-                            <div className="w-12 h-12 border flex flex-col items-center justify-center rounded-xl ">
+                            <div className="w-12 h-12 border-2 border-[#F97316] flex flex-col items-center justify-center rounded-xl ">
                                 <img src={brain} alt="" />
                             </div>
                             <div>
@@ -42,7 +42,7 @@ const Section7 = () => {
                             </div>
                         </div>
                         <div>
-                            <div className="w-12 h-12 border flex flex-col items-center justify-center rounded-xl ">
+                            <div className="w-12 h-12 border-2 border-[#3B82F6] flex flex-col items-center justify-center rounded-xl ">
                                 <img src={cpu} alt="" />
                             </div>
                             <div>

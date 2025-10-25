@@ -18,6 +18,34 @@
     --margin4: 30px;
 }
 
+/* style globally */
+
+/* -- adding font family */
+
+/* font text */
+@font-face {
+    font-family: 'Fricolage-Grotesque'; /* A name you choose for your font */
+    src: url('./assets/font/fricolage-grotesque.woff2') format('woff2');
+    font-weight: normal; /* Optional: Define font weight (e.g., normal, bold, 400, 700) */
+    font-style: normal;  /* Optional: Define font style (e.g., normal, italic) */
+    font-display: swap;  /* Optional: Controls how font is displayed while loading */
+}
+
+/* font header */
+@font-face {
+    font-family: 'Fricolage-Grotesque'; /* A name you choose for your font */
+    src: url('./assets/font/fricolage-grotesque.woff2') format('woff2');
+    font-weight: normal; /* Optional: Define font weight (e.g., normal, bold, 400, 700) */
+    font-style: normal;  /* Optional: Define font style (e.g., normal, italic) */
+    font-display: swap;  /* Optional: Controls how font is displayed while loading */
+}
+
+/* -- set global font style */
+*{
+    font-family: Fricolage-Grotesque ;
+}
+
+
 /* navbar */
 
 

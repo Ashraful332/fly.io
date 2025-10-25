@@ -33,8 +33,17 @@
 
 /* font header */
 @font-face {
-    font-family: 'Fricolage-Grotesque'; /* A name you choose for your font */
-    src: url('./assets/font/fricolage-grotesque.woff2') format('woff2');
+    font-family: 'Mackinac'; /* A name you choose for your font */
+    src: url('./assets/font/Fontspring-DEMO-P22Mackinac-Medium.otf') format('woff2');
+    font-weight: normal; /* Optional: Define font weight (e.g., normal, bold, 400, 700) */
+    font-style: normal;  /* Optional: Define font style (e.g., normal, italic) */
+    font-display: swap;  /* Optional: Controls how font is displayed while loading */
+}
+
+/* font header lite */
+@font-face {
+    font-family: 'Mackinac-Lite'; /* A name you choose for your font */
+    src: url('./assets/font/Fontspring-DEMO-P22Mackinac-Book.otf') format('woff2');
     font-weight: normal; /* Optional: Define font weight (e.g., normal, bold, 400, 700) */
     font-style: normal;  /* Optional: Define font style (e.g., normal, italic) */
     font-display: swap;  /* Optional: Controls how font is displayed while loading */
@@ -43,6 +52,26 @@
 /* -- set global font style */
 *{
     font-family: Fricolage-Grotesque ;
+}
+
+/* -- set heading font */
+h1{
+    font-family: Mackinac;
+}
+h2{
+    font-family: Mackinac;
+}
+h3{
+    font-family: Mackinac;
+}
+h4{
+    font-family: Mackinac;
+}
+h5{
+    font-family: Mackinac;
+}
+h6{
+    font-family: Mackinac;
 }
 
 
